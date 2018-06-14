@@ -1,7 +1,6 @@
 {
     "name": "hetiansu5/tool",
     "description": "tool",
-    "type": "composer-plugin",
     "authors" : [
         {
             "name" : "hts",
