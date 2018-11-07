@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoo\Tool;
+namespace Tinson\Tool;
 
 /**
  * 验证类
