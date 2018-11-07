@@ -12,7 +12,7 @@ $arr = AddressSeparator::getInstance()->handle($str);
 var_dump($arr);
 
 //省市区详细地址
-$address = "张三,13001277920  335500  大理胡人街道八大胡同42号";
+$address = "云南大理胡人街道八大胡同42号";
 $arr = AddressSeparator::getInstance()->handleAddress($address);
 var_dump($arr);
 
