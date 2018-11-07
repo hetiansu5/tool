@@ -1,6 +1,6 @@
 {
     "name": "tinson/tool",
-    "description": "composer package demo",
+    "description": "A series of tool.These contains chinese address separator.",
     "authors" : [
         {
             "name" : "Tinson Ho"
