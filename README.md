@@ -32,7 +32,7 @@ https://github.com/hetiansu5/tool.git
 如果懒的话，也可以直接在packagist控制后台手动更新。
 ```
 
-6.composer.json的使用示例
+6.composer.json使用示例
 
 ```
 {
@@ -45,9 +45,21 @@ https://github.com/hetiansu5/tool.git
 }
 ```
 
-
 ```
 composer update -o --no-plugins --no-scripts
+```
+
+7.PHP使用示例
+```
+<?php
+
+use Tinson\Tool\Validate;
+
+date_default_timezone_set('Asia/Chongqing');
+$rootPath = __DIR__;
+require $rootPath . '/vendor/autoload.php';
+$res = Validate::isEmail("541919050@qq.com");
+var_dump($res);
 ```
 
 
